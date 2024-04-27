@@ -1,0 +1,15 @@
+/* Presets */
+
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-purple: #C271FF;
+    --color-gold: #D4AF37;
+}
+
+body {
+    background-image: url(images/itme.jpg);
+    background-size: 450px 600px;
+    background-repeat: no-repeat;
+    color: #D4AF37;
+}
