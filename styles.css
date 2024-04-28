@@ -2,14 +2,28 @@
 
 :root {
     --color-white: #FFFFFF;
+    --color-grey: #848884;
     --color-black: #000000;
-    --color-purple: #C271FF;
+    --color-purple: #590168;
     --color-gold: #D4AF37;
 }
 
 body {
-    background-image: url(images/itme.jpg);
-    background-size: 450px 600px;
+    /* background-image: url(images/itme.jpg); */
+    background-color: var(--color-purple);
+    font-family: "Aleo", serif;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center top;
     color: #D4AF37;
+    height: 910px;
+}
+
+li a {
+	color: var(--color-dark);
+}
+
+li a:hover, li a:focus {
+	color: var(--color-grey) !important;
+	text-decoration: none;
 }
