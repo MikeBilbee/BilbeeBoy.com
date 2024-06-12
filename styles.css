@@ -8,22 +8,26 @@
     --color-gold: #D4AF37;
 }
 
-body {
-    /* background-image: url(images/itme.jpg); */
-    background-color: var(--color-purple);
-    font-family: "Aleo", serif;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center top;
-    color: #D4AF37;
-    height: 910px;
+a:link {
+    color: var(--color-gold);
+    background-color: transparent;
+    text-decoration: none;
 }
 
-li a {
-	color: var(--color-dark);
+a:visited {
+    color: var(--color-grey);
+    background-color: transparent;
+    text-decoration: none;
 }
 
-li a:hover, li a:focus {
-	color: var(--color-grey) !important;
-	text-decoration: none;
+a:hover {
+    color: var(--color-gold);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--color-purple);
+    background-color: transparent;
+    text-decoration: underline;
 }
